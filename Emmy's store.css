@@ -94,16 +94,20 @@
     padding-bottom: 15px;
 }
 #hero button a{
-    background-color: rgb(77, 160, 0);
+    background-color: #088176;
     border-radius: 9px;
     padding: 10px 60px;
     border: 0;
-    color: #7daaa7;
+    color: #fff;
     text-decoration: none;
     padding-top: 8px;
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+}
+#hero button a:hover{
+    background-color: white;
+    color: #7daaa7;
 }
 #hero button{
    border: 0;
@@ -133,8 +137,8 @@
 #features .fe-box h6{
     padding: 9px 8px 6px 8px;
     line-height: 1;
-    color: #088176;
-    background-color: #fddde4;
+    /* color: #088176; */
+    /* background-color: #fddde4; */
     border-radius: 4px;
     display: inline-block;
 }
@@ -172,14 +176,17 @@
 }
 #product1 .PRO:hover{
     box-shadow: 10px 10px 54px rgb(0, 0, 0,0.06);
+
 }
 #product1 .PRO img{
-    width: 99%;
+    width: 90%;
     border-radius: 20px;
 }
 #product1 .PRO .des{
     text-align: start;
     padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 #product1 .PRO .des span{
     color: #606063;
@@ -212,6 +219,10 @@
     bottom: 20px;
     right: 10px;  
 }
+#product1 .PRO .modal{
+    padding: 10px 25px;
+
+}
 
 /* for shop html */
 .button-value{
@@ -233,6 +244,8 @@
 
 #signup-section{
     background-image: url(images/singup\ img.jpg);
+     width: 100%;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #cce7d0;
@@ -240,7 +253,8 @@
 .sign{
     display: flex;
     justify-content: space-between;
-    padding: 45px 50px;
+    padding: 150px 50px;
+    align-items: center;
 }
 .sign h2{
     color: white;
@@ -346,3 +360,135 @@ button.normal{
     background: #088176;
     color: #fff;
 }
+#product2{
+    text-align: center;
+
+}
+#product2 .pro-container2{ 
+    display: flex;
+    justify-content: space-between;
+    padding:  20px;
+    flex-wrap: wrap;
+}
+
+
+#product2 .PRO2{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.02);
+    margin: 15px 10px;
+    transition: 0.2s ease;
+    position: relative;
+}
+#product2 h2{
+    padding: 15px;
+    font-size: 30px;
+}
+#product2 p{
+    font-size: 20px; 
+}
+#product2 .PRO2:hover{
+    box-shadow: 10px 10px 54px rgb(0, 0, 0,0.06);
+}
+#product2 .PRO2 img{
+    width: 99%;
+    border-radius: 20px;
+}
+#product2 .PRO2 .des2{
+    text-align: start;
+    padding: 10px 0;
+    width: 90px;
+}
+#product2 .PRO2 .des2 span{
+    color: #606063;
+    font-size: 12px;
+}
+#product2 .PRO2 .des2 h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+#product2 .PRO2 .des2 i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+#product2 .PRO2 .des2 h4{
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+#product2 .PRO2 .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    /* font-weight: 500; */
+    color: #088178;
+    border-color: 1px solid #cce7d0;position: absolute;
+    bottom: 20px;
+    right: 10px;  
+}
+.option-of-sale{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+.option-of-sale .first-option{
+    background-image: url("Images/orange\ img.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 580px;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.option-of-sale .second-option{
+    background-image: url("images/first\ option\ img.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 580px;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 20px;
+}
+.option-of-sale h6{
+   color: #fff;
+   padding: 5px;
+   font-size: 20px;
+}
+.option-of-sale h3{
+    color: #fff;
+    padding: 5px;
+    font-size: 40px;
+ }
+ .option-of-sale p{
+    color: #fff;
+    padding: 7px;
+    font-size: 15px;
+ }
+ .option-of-sale button{
+    margin-top: 2px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+ }
+ .option-of-sale button:hover{
+    background-color: #fff;
+ }
+ 
