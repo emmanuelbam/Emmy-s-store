@@ -84,7 +84,7 @@
 #hero h2{
     color: #088178;
     font-size: 35px;
-    padding-bottom: ;
+    /* padding-bottom: ; */
 }
 #hero p{
     color: #1f504d;
@@ -151,16 +151,13 @@
 #features .fe-box:nth-child(4){
     background-color: #cdd4f8;
 }
-#product1{
+#product1{ 
     text-align: center;
-}
-#product1 .pro-container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
+
+
 #product1 .PRO{
     width: 23%;
     min-width: 250px;
@@ -169,7 +166,7 @@
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgb(0, 0, 0,0.02);
-    margin: 15px 0;
+    margin: 15px 10px;
     transition: 0.2s ease;
     position: relative;
 }
@@ -177,7 +174,7 @@
     box-shadow: 10px 10px 54px rgb(0, 0, 0,0.06);
 }
 #product1 .PRO img{
-    width: 100%;
+    width: 99%;
     border-radius: 20px;
 }
 #product1 .PRO .des{
@@ -228,4 +225,85 @@
 }
 .button-value:hover{
     box-shadow: 6px 6px 14px rgb(77, 160, 0);
+}
+
+.btn-active {
+    background-color: rgb(77, 160, 0);
+  }
+
+#signup-section{
+    background-image: url(images/singup\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cce7d0;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 50px;
+}
+.sign h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.signup-email{
+    padding: 15px 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.signup-btn{
+    padding: 15px 25px;
+    margin-left: -5px;
+    border: none; border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(12, 112, 70);
+}
+.sign h6 span{
+    color: gold;
+}
+.sign h6{
+    color: rgb(81, 63, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#footer-container{
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-contact{
+   padding: 8px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.follow-us{
+    padding-top: 25px;
+    padding-bottom: 14px;
+}
+.contact-ptag{
+    color: #088178;
+    font-size: 15px;
+}
+.contact-ptag p{
+    padding-top: 5px;
+}
+.contact-text{
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+.first-col ul{
+   display: flex;
+   list-style: none;
+}
+.first-col ul li{
+    padding-left: 9px;
+}
+.footer-third-col p{
+    color: #088178;
+    /* font-size: 15px; */
+}
+.payment{
+    padding-top: 9px;
 }
